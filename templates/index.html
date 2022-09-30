@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/css/style.css" />
+    
+    
+    <script src="../static/javascript/index.js" defer></script>
+
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Movies</title>
+  </head>
+  <body>
+    
+    <section id="landing">
+      
+      <nav class="navbar">
+        <div class="nav__container">
+          <img class="logo" id="logo" src="../static/css/logo2.png" alt="" />
+          <ul class="nav__links">
+            <li><a href="#" class="nav__link">Home</a></li>
+            <li><a href="#" class="nav__link">Contacts</a></li>
+            <li><a href="#" class="nav__link nav__link--primary">Movies</a></li>
+          </ul>
+        </div>
+        
+        <div class="menu__backdrop">
+          <button class="btn__menu btn_menu--close" onclick="closeMenu()">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="menu__links">
+            <li class="menu__list">
+              <a class="menu__link" href="#">Home</a>
+            </li>
+              <li class="menu__list">
+                <a class="menu__link" href="#features">Books</a>
+              </li>
+              <li class="menu__list">
+                <a class="menu__link" href="#">Contacts</a></li>
+          </ul>
+
+        </div>
+      </nav>
+      <header>
+        <div class="header__container">
+          <div class="header__description">
+            <h1>The best website to watch movies for low prices</h1>
+            <h2>Bored? watch a <span class="purple">movie</span></h2>
+            <a href="#features"><button class="btn">Browse movies</button></a>
+          </div>
+
+          <figure class="header__img--wrapper">
+            <img id="logo2" src="../static/css/logo.png" alt="" />
+          </figure>
+        </div>
+      </header>
+    </section>
+    <main>
+      <section id="highlights">
+        <div class="container">
+          <div class="row">
+            <h2 class="section__title">
+              Our main <span class="purple">benefits</span>
+            </h2>
+
+            <div class="highlight__wrapper">
+              <div class="highlight">
+                <div class="highlight__img">
+                  <i class="fas fa-bolt"></i>
+                </div>
+                <h3 class="highlight__subtitle">Easy and Quick</h3>
+                <p class="highlight__para">
+                  Access any movie you want online from any device
+                </p>
+              </div>
+
+              <div class="highlight">
+                <div class="highlight__img">
+                  <i class="fas fa-video"></i>
+                </div>
+                <h3 class="highlight__subtitle">1000+ movies</h3>
+                <p class="highlight__para">
+                  Movie time lets you watch your favourite movies
+                </p>
+              </div>
+
+              <div class="highlight">
+                <div class="highlight__img">
+                  <i class="fas fa-tags"></i>
+                </div>
+                <h3 class="highlight__subtitle">Affordable</h3>
+                <p class="highlight__para">
+                  Better price than netflix or disney
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features">
+        <div class="container">
+          <div class="row">
+            <h2 class="section__title">
+              Best <span class="purple">featured</span> movies
+            </h2>
+            
+              <div class="movies">
+                
+                <div class="movie">
+                  <figure class="movie__img--wrapper">
+                    <img class="movie__img" src="../static/css/moonknight.jfif" alt="" />
+                  </figure >
+                  <div class="movie__title">Moon knight</div>
+                  <div class="movie__ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <div class="movie__price">
+                    <span class="movie__price--normal">$29.99</span> $8.99
+                  </div>
+                </div>
+
+                <div class="movie">
+                  <figure class="movie__img--wrapper">
+                    <img class="movie__img" src="../static/css/loki.jfif" alt="" />
+                  </figure>
+                  <div class="movie__title">Loki</div>
+                  <div class="movie__ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <div class="movie__price">
+                    <span class="movie__price--normal">$95.99</span> $7.99
+                  </div>
+                </div>
+
+                <div class="movie">
+                  <figure class="movie__img--wrapper">
+                    <img class="movie__img" src="../static/css/blackpanther.jfif" alt="" />
+                  </figure>
+                  <div class="movie__title">Black Panther</div>
+                  <div class="movie__ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <div class="movie__price">
+                    <span class="movie__price--normal">$87.99</span> $59.99 
+                  </div>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <section id="recent">
+        <div class="container">
+          <div class="row">
+            <h2 class="section__title">
+              Recomended movies <span class="purple">By Nati</span>
+            </h2>
+            
+              <div class="movies">
+                
+                <div class="movie">
+                  <figure class="movie__img--wrapper">
+                    <img class="movie__img" src="../static/css/ironman.jfif" alt="" />
+                  </figure >
+                  <div class="movie__title">Iron Man</div>
+                  <div class="movie__ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <div class="movie__price">
+                    <span class="movie__price--normal">$39.99</span> $40.99
+                  </div>
+                </div>
+
+                <div class="movie">
+                  <figure class="movie__img--wrapper">
+                    <img class="movie__img" src="../static/css/gotg.jfif" alt="" />
+                  </figure>
+                  <div class="movie__title">Gurdians of the galaxy</div>
+                  <div class="movie__ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <div class="movie__price">
+                    <span class="movie__price--normal">$109.99</span> $58.99
+                  </div>
+                </div>
+
+                <div class="movie">
+                  <figure class="movie__img--wrapper">
+                    <img class="movie__img" src="../static/css/teenwolf.jfif" alt="" />
+                  </figure>
+                  <div class="movie__title">Teen wolf</div>
+                  <div class="movie__ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <div class="movie__price">
+                    <span class="movie__price--normal">$49.99</span> $18.99
+                  </div>
+                </div>
+
+                <div class="movie">
+                  <figure class="movie__img--wrapper">
+                    <img class="movie__img" src="../static/css/lucifer.jfif" alt="" />
+                  </figure >
+                  <div class="movie__title">Lucifer</div>
+                  <div class="movie__ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <div class="movie__price">
+                    <span class="movie__price--normal">$39.99</span> $56.99
+                  </div>
+                </div>
+
+                <div class="movie">
+                  <figure class="movie__img--wrapper">
+                    <img class="movie__img" src="../static/css/spider-man.jfif" alt="" />
+                  </figure>
+                  <div class="movie__title">spider-man No Way Home</div>
+                  <div class="movie__ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <div class="movie__price">
+                    <span class="movie__price--normal">$29.99</span> $8.99
+                  </div>
+                </div>
+
+                <div class="movie">
+                  <figure class="movie__img--wrapper">
+                    <img class="movie__img" src="../static/css/blackpanther.jfif" alt="" />
+                  </figure>
+                  <div class="movie__title">Black panther</div>
+                  <div class="movie__ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <div class="movie__price">
+                    <span class="movie__price--normal">$29.99</span> $8.99
+                  </div>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+      </section>
+      <section id="explore">
+        <div class="container">
+          <div class="row-explore">
+            <h2 >
+              Explore more <span class="purple">movies</span></h2>
+              <a href="#features"><button class="btn">More movies?</button></a>
+            
+
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row-explore">
+          <a href="#">
+           <figure class="footer__logo">
+            <img src="./assets/logo.png" class="footer__logo--img" alt="">
+
+           </figure>
+          </a>
+          <div class="footer__list">
+            <a href="" class="footer__link">Home</a>
+            <a href="" class="footer__link">About</a>
+            <a href="#features" class="footer__link">Movies</a>
+            <a href="" class="footer__link">Contact</a>
+          </div>
+          <div class="copyright" >
+            copyright &copy; 2022 Library
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  </body>
+</html>
